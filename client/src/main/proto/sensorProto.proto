@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "hr.fer.tel.rassus";
+
+package hr.fer.tel.rassus;
+
+
+service NeighbourReading {
+
+  rpc RequestReading (Message) returns (Reading) {}
+}
+
+message Message{
+
+}
+
+message Reading {
+  double temperature = 1;
+  double pressure = 2;
+  double humidity = 3;
+  optional double co = 4;
+  optional double no2 = 5;
+  optional double so2 = 6;
+}

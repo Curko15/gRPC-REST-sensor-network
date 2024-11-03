@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1dz-server-template" target="21" />
+      <module name="1dz-server-template.main" target="21" />
+      <module name="1dz-server-template.test" target="21" />
+      <module name="grpc-example" target="17" />
+      <module name="grpc-example.main" target="17" />
+      <module name="grpc-example.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
